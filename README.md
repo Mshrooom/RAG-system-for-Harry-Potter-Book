@@ -3,7 +3,7 @@ This project demonstrates how to build a production-ready pipeline for document 
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```mermaid
 flowchart LR
@@ -18,7 +18,7 @@ flowchart LR
 
 ```
 --------------------
-## 🔑 Key Components
+##  Key Components
 
 * **LangChain** – Builds the RAG pipeline (retrieval + generation).
 * **LangGraph** – Adds structured workflows for better orchestration.
@@ -29,16 +29,16 @@ flowchart LR
 
 ---
 
-## ⚡ Quickstart
+##  Quickstart
 
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 
 ```bash
 git clone https://github.com/Mshroom/RAG-system-for-Harry-Potter-Book.git
 cd complex-RAG-guide
 ```
 
-### 2️⃣ Create Virtual Environment & Install Dependencies
+### 2️ Create Virtual Environment & Install Dependencies
 
 ```bash
 python -m venv venv
@@ -48,7 +48,7 @@ venv\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Add API Keys
+### 3️ Add API Keys
 
 Create a `.env` file in the root directory:
 
@@ -60,7 +60,7 @@ OPENROUTER_API_KEY=your_api_key_here
 
 ---
 
-## ▶️ Beginner Tutorial
+##  Beginner Tutorial
 
 Here’s a minimal example to **embed documents, store them in FAISS, and query GPT-4o**.
 
@@ -103,7 +103,7 @@ print("Q:", query)
 print("A:", answer)
 
 
-## 📊 Evaluating with RAGAS
+##  Evaluating with RAGAS
 
 Once you’ve tested your pipeline, evaluate it with RAGAS:
 
@@ -139,7 +139,7 @@ complex-RAG-guide/
 
 
 
-## 📚 Resources
+##  Resources
 
 * [LangChain Docs](https://python.langchain.com)
 * [LangGraph](https://www.langchain.com/langgraph)
